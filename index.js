@@ -1,5 +1,5 @@
 import colecaoUf from "./dados/dados.js";
-import { buscarUfs, buscarUfsPorId, buscarUfsPorNome, buscarUfsPorSigla } from "./servicos/servicos.js";
+import { buscarUfs, buscarUfsPorId, buscarUfsPorNome, buscarUfsPorSigla } from "./apiUF/servicos/servicos.js";
 import express from 'express';
 
 const app = express();
